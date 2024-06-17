@@ -18,14 +18,16 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About </title>
+        <title>About | Society of Nepal Doctors of Bangladesh (SNDB)</title>
+
         <meta
           name="description"
-          content=""
+          content="Learn more about the Society of Nepal Doctors of Bangladesh (SNDB), our mission, and the exceptional medical care we provide."
         />
+
         <meta
           name="keywords"
-          content=""
+          content="SNDB, Nepal Doctors, Bangladesh Doctors, Medical Care, Healthcare"
         />
       </Helmet>
       {show && (
@@ -90,13 +92,13 @@ const About = () => {
                   </h5>
                 </div>
               </div>
-              <a
-                href="appointment.html"
+              <Link
+                to="/appointment"
                 className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
                 data-wow-delay="0.6s"
               >
                 Make Appointment
-              </a>
+              </Link>
             </div>
             <div className="col-lg-5" style={{ minHeight: 500 }}>
               <div className="position-relative h-100">

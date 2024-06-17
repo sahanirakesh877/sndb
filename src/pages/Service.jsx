@@ -16,15 +16,17 @@ const Service = () => {
   }, [location.pathname]);
   return (
     <>
-     <Helmet>
-        <title>Service</title>
+    <Helmet>
+        <title>Service | Society of Nepal Doctors of Bangladesh (SNDB)</title>
+
         <meta
           name="description"
-          content=""
+          content="Learn more about the Society of Nepal Doctors of Bangladesh (SNDB), our mission, and the exceptional medical care we provide."
         />
+
         <meta
           name="keywords"
-          content=""
+          content="SNDB, Nepal Doctors, Bangladesh Doctors, Medical Care, Healthcare"
         />
       </Helmet>
       {show && (

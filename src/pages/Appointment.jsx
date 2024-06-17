@@ -19,16 +19,19 @@ const Appointment = () => {
     <>
 
 <Helmet>
-        <title>Appointment </title>
+        <title>Appointment | Society of Nepal Doctors of Bangladesh (SNDB)</title>
+
         <meta
           name="description"
-          content=""
+          content="Learn more about the Society of Nepal Doctors of Bangladesh (SNDB), our mission, and the exceptional medical care we provide."
         />
+
         <meta
           name="keywords"
-          content=""
+          content="SNDB, Nepal Doctors, Bangladesh Doctors, Medical Care, Healthcare"
         />
       </Helmet>
+
       {show && (
         <div className="container-fluid bg-primary py-5 hero-header mb-5">
           <div className="row py-3">

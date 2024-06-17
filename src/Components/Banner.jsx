@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -20,18 +21,19 @@ const Banner = () => {
                   <h1 className="display-1 text-white mb-md-4 animated zoomIn">
                     Take The Best Quality Pediatric Treatment
                   </h1>
-                  <a
-                    href="appointment.html"
+                  <Link
+
+                    to="/appointment"
                     className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                   >
                     Appointment
-                  </a>
-                  <a
-                    href
+                  </Link>
+                  <Link
+                    tp='/contact'
                     className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

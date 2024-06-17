@@ -6,10 +6,12 @@ import Appointment from './Appointment'
 import Service from './Service'
 import Testimonial from './../Components/Testimonial';
 import Teams from './Teams';
+import { Helmet } from 'react-helmet'
 
 const Home = () => {
   return (
     <>
+      <Helmet titleTemplate="SNDB" />
       <Banner/>
       <Box/>
       <About/>

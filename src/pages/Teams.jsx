@@ -17,15 +17,16 @@ const Teams = () => {
   }, [location.pathname]);
   return (
     <>
-     <Helmet>
-        <title>Doctors </title>
+      <Helmet>
+        <title>Doctors | Society of Nepal Doctors of Bangladesh (SNDB)</title>
+
         <meta
           name="description"
-          content=""
+          content="Meet the highly skilled and experienced doctors at the Society of Nepal Doctors of Bangladesh (SNDB). Our team is dedicated to providing exceptional medical care."
         />
         <meta
           name="keywords"
-          content=""
+          content="SNDB, Nepal Doctors, Bangladesh Doctors, Medical Care, Healthcare, Expert Doctors"
         />
       </Helmet>
       {show && (
