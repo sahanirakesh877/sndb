@@ -7,7 +7,8 @@
 }
 :root {
     /* --primary: #06A3DA; */
-    --primary: #0a6137;
+    /* --primary: #0a6137; */
+    --primary:#14468C;
     --secondary: #F57E57;
     --light: #EEF9FF;
     --dark: #091E3E;
@@ -322,7 +323,7 @@ h6,
 
 }
 .testimonialbg{
-    background-color: #2b7453;
+    background-color: #4b5780;
 }
 .footer-text{
     color: rgb(1, 255, 107);

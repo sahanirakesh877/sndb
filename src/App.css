@@ -1,0 +1,9 @@
+.cardimg{
+    width: 180px;
+    height: 120px;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

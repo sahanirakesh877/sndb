@@ -11,6 +11,8 @@ import Appointment from "./pages/Appointment";
 import Topbar from "./Components/Topbar";
 import Teams from "./pages/Teams";
 import Loader from "./Components/Loader";
+import Notice from "./pages/Notice";
+import Gallery from './pages/Gallery';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -35,6 +37,8 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/doctors" element={<Teams />} />
+        <Route path="/blog" element={<Notice/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="/appointment" element={<Appointment />} />
       </Routes>
       <Footer />

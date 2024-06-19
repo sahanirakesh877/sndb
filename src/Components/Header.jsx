@@ -62,6 +62,20 @@ const Header = () => {
               Doctors
             </Link>
             <Link
+              to="/gallery"
+              className="nav-item nav-link"
+              onClick={handleNavLinkClick}
+            >
+              Gallery
+            </Link>
+            <Link
+              to="/blog"
+              className="nav-item nav-link"
+              onClick={handleNavLinkClick}
+            >
+              Notice
+            </Link>
+            <Link
               to="/contact"
               className="nav-item nav-link"
               onClick={handleNavLinkClick}
@@ -69,6 +83,7 @@ const Header = () => {
               Contact
             </Link>
           </div>
+          
           <Link
             to="/appointment"
             className="btn btn-primary py-2 px-4 ms-3"

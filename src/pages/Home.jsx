@@ -7,6 +7,7 @@ import Service from './Service'
 import Testimonial from './../Components/Testimonial';
 import Teams from './Teams';
 import { Helmet } from 'react-helmet'
+import Blogs from '../Components/Blogs'
 
 const Home = () => {
   return (
@@ -17,7 +18,9 @@ const Home = () => {
       <About/>
       <Appointment/>
       <Service/>
+      <Blogs/>
       <Testimonial/>
+     
       <Teams/>
 
     </>

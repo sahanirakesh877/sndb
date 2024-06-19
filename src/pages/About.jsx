@@ -55,8 +55,8 @@ const About = () => {
                 <h5 className="position-relative d-inline-block text-primary text-uppercase">
                   About Us
                 </h5>
-                <h1 className="display-5 mb-0">
-                  The World's Best Doctors Available For You That You Can Trust
+                <h1 className="display-7 mb-0">
+                Welcome to Society of Nepal Doctors Of Bangladesh (SNDB)
                 </h1>
               </div>
               <h4 className="text-body fst-italic mb-4">
